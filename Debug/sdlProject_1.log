@@ -1,0 +1,13 @@
+﻿Build started 4/21/2016 8:39:15 PM.
+     1>Project "H:\sdlProject_1\sdlProject_1\sdlProject_1.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\sdlProject_1\Debug\sdlProject_1.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\sdlProject_1\Debug\sdlProject_1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\sdlProject_1\Debug\sdlProject_1.lib" /MACHINE:X86 Debug\main.obj
+     1>main.obj : error LNK2019: unresolved external symbol _IMG_Init referenced in function "bool __cdecl init(void)" (?init@@YA_NXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _IMG_Quit referenced in function "void __cdecl close(void)" (?close@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _IMG_Load referenced in function "struct SDL_Texture * __cdecl loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadTexture@@YAPAUSDL_Texture@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>H:\sdlProject_1\Debug\sdlProject_1.exe : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "H:\sdlProject_1\sdlProject_1\sdlProject_1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.14
